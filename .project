@@ -3,6 +3,8 @@
 	<name>PurplePizzaEater</name>
 	<comment></comment>
 	<projects>
+		<project>PurplePizzaEater_CM4</project>
+		<project>PurplePizzaEater_CM7</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
