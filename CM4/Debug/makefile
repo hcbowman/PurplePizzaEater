@@ -62,8 +62,8 @@ all: main-build
 main-build: PurplePizzaEater_CM4.elf secondary-outputs
 
 # Tool invocations
-PurplePizzaEater_CM4.elf: $(OBJS) $(USER_OBJS) /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/CM4/STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "PurplePizzaEater_CM4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/CM4/STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PurplePizzaEater_CM4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+PurplePizzaEater_CM4.elf: $(OBJS) $(USER_OBJS) C:\Users\hbowman\Projects\PurplePizzaEater\CM4\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "PurplePizzaEater_CM4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\hbowman\Projects\PurplePizzaEater\CM4\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PurplePizzaEater_CM4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

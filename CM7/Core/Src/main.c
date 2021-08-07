@@ -124,9 +124,9 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	while (1) {
-		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11);
-		HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);
-		HAL_Delay(500);
+		//HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11);
+		//HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);
+		//HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -198,7 +198,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : PB10 */
   GPIO_InitStruct.Pin = GPIO_PIN_10;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
@@ -209,9 +209,22 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
+
 }
 
 /* USER CODE BEGIN 4 */
+
+// EXTI Line9 External Interrupt ISR Handler CallBackFun
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if(GPIO_Pin == GPIO_PIN_10) // If The INT Source Is EXTI Line9 (B10 Pin)
+    {
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11); // Toggle The Output (LED) Pin
+    }
+}
 
 /* USER CODE END 4 */
 

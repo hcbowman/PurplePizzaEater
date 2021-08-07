@@ -5,24 +5,24 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c \
-/Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c 
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c \
+C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c 
 
 OBJS += \
 ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o \
@@ -66,40 +66,40 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_exti.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_exti.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash_ex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_flash_ex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_gpio.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_gpio.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_hsem.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_hsem.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c_ex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_i2c_ex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_mdma.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_mdma.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr_ex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr_ex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc_ex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc_ex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim_ex.o: /Users/babowman/Projects/STM32CubeIDE/workspace_1.7.0/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
+Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim_ex.o: C:/Users/hbowman/Projects/PurplePizzaEater/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c Drivers/STM32H7xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32H7xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
 
