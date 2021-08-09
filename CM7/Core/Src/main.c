@@ -218,12 +218,13 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 // EXTI Line9 External Interrupt ISR Handler CallBackFun
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{
-    if(GPIO_Pin == GPIO_PIN_10) // If The INT Source Is EXTI Line9 (B10 Pin)
-    {
-    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11); // Toggle The Output (LED) Pin
-    }
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+
+	// If The INT Source Is EXTI Line9 (B10 Pin)
+	if (GPIO_Pin == GPIO_PIN_10) {
+		// Toggle The Output (LED) Pin
+		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11);
+	}
 }
 
 /* USER CODE END 4 */
